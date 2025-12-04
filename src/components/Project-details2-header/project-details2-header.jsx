@@ -9,11 +9,27 @@ const ProjectDetails2Header = ({ projectHeaderData }) => {
       data-overlay-dark="4"
     >
       <div className="container">
-        <div className="row">
+        <div className="row align-items-end">
           <div className="col-lg-7 col-md-9">
             <div className="cont">
               <h6>{projectHeaderData.title.small}</h6>
               <h2>{projectHeaderData.title.big}</h2>
+              {projectHeaderData.liveDemo && projectHeaderData.liveDemo.url && (
+                <div className="mt-30">
+                  <a
+                    href={projectHeaderData.liveDemo.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="butn bord curve"
+                  >
+                    <span>
+                      {projectHeaderData.liveDemo.label
+                        ? projectHeaderData.liveDemo.label
+                        : "Live demo"}
+                    </span>
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>

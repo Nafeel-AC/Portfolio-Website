@@ -54,7 +54,7 @@ class FullTestimonials extends React.Component {
                     Testimonials
                   </h6>
                   <h3 className="wow color-font">
-                    We love our clients from all over the world.
+                    People I&apos;ve worked with on real-world products.
                   </h3>
                 </div>
               </div>
@@ -113,14 +113,15 @@ class FullTestimonials extends React.Component {
                           Alex Regelman
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          CTO, SaaS Startup
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                    Consistently delivered high-quality, well-tested features.
+                    Great at collaborating with product and design while keeping
+                    an eye on performance and scalability.
                   </p>
                 </div>
                 <div className="item">
@@ -131,17 +132,18 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Sarah Johnson
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Product Manager
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                    Turned vague ideas into clear technical plans and shipped
+                    them on time. Communication was transparent and proactive
+                    throughout the project.
                   </p>
                 </div>
                 <div className="item">
@@ -152,17 +154,18 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          David Kim
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Senior Engineer
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                    Strong understanding of both frontend and backend. Wrote
+                    clean, maintainable code and improved our CI/CD pipeline
+                    along the way.
                   </p>
                 </div>
                 <div className="item">
@@ -173,17 +176,18 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Maria Lopez
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Founder, E‑commerce Brand
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                    Rebuilt our store with a faster, more stable stack and
+                    handled all the integrations we needed. Revenue and customer
+                    experience improved noticeably.
                   </p>
                 </div>
               </Slider>

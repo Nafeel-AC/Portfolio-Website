@@ -15,8 +15,8 @@ const FreelancreIntro = () => {
           <div className="col-lg-8 valign">
             <div className="cont">
               <h1 className="cd-headline clip">
-                Hello, My name is hisham i love design and i hope to make
-                awesome designs and also i create a
+                Hello, I&apos;m a full-stack engineer who loves turning ideas
+                into production-ready software and building
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
                   className="cd-words-wrapper"
@@ -25,9 +25,9 @@ const FreelancreIntro = () => {
                     options={{
                       wrapperClassName: "color-font fw-600",
                       strings: [
-                        "Mobile Apps",
-                        "Landing Pages",
-                        "Awesome Design",
+                        "Scalable Web Apps",
+                        "Robust Backends",
+                        "Modern Frontends",
                       ],
                       autoStart: true,
                       loop: true,
@@ -48,33 +48,33 @@ const FreelancreIntro = () => {
             <ul className="flex">
               <li className="flex">
                 <div className="numb valign">
-                  <h3>12</h3>
+                  <h3>5</h3>
                 </div>
                 <div className="text valign">
                   <p>
-                    Years <br /> Of Experience
+                    Years <br /> of Experience
                   </p>
                 </div>
               </li>
 
               <li className="flex">
                 <div className="numb valign">
-                  <h3>165</h3>
+                  <h3>40+</h3>
                 </div>
                 <div className="text valign">
                   <p>
-                    Projects Completed <br /> In 19 Countries
+                    Full-Stack Projects <br /> Shipped to Production
                   </p>
                 </div>
               </li>
 
               <li className="mail-us">
-                <a href="mailto:your@email.com?subject=Subject">
+                <a href="mailto:hello@yourname.dev?subject=Project%20Inquiry">
                   <div className="flex">
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Vie_Support@Gmail.Com</h6>
+                        <h6>hello@yourname.dev</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

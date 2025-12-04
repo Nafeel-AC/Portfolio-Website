@@ -20,10 +20,10 @@ const SContactForm = ({ noLine }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Contact Us
+                Contact Me
               </h6>
               <h3 className="wow color-font">
-                Let’s Get in Touch And Make Magic Together.
+                Let&apos;s talk about your next product or idea.
               </h3>
             </div>
           </div>
@@ -104,7 +104,7 @@ const SContactForm = ({ noLine }) => {
                               type="submit"
                               className="nb butn bord curve mt-30"
                             >
-                              <span>Send Massege</span>
+                              <span>Send Message</span>
                             </button>
                           </div>
                         </div>

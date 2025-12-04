@@ -9,11 +9,11 @@ const Blogs2 = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="head md-mb50">
-              <h6 className="back-color">Get The Latest News</h6>
-              <h3>What Our Trending News.</h3>
+              <h6 className="back-color">Thoughts & Writing</h6>
+              <h3>Sharing what I learn as a full-stack engineer.</h3>
               <p>
-                We provide company and finance service for startups and company
-                business.
+                Short articles on architecture decisions, tooling, and lessons
+                from building real products.
               </p>
               <Link href="/blog/blog-dark">
                 <a>
@@ -40,14 +40,14 @@ const Blogs2 = () => {
                     <span>/</span>
                     <Link href="/blog/blog-dark">
                       <a className="tag">
-                        <span>WordPress</span>
+                        <span>Engineering</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        How to use solid color combine with simple furnitures.
+                        Scaling a Node.js API: practical patterns that actually work.
                       </a>
                     </Link>
                   </h5>
@@ -71,14 +71,14 @@ const Blogs2 = () => {
                     <span>/</span>
                     <Link href="/blog/blog-dark">
                       <a className="tag">
-                        <span>WordPress</span>
+                        <span>React</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        How to use solid color combine with simple furnitures.
+                        Building fast, accessible UIs with React & Next.js.
                       </a>
                     </Link>
                   </h5>
@@ -102,14 +102,14 @@ const Blogs2 = () => {
                     <span>/</span>
                     <Link href="/blog/blog-dark">
                       <a className="tag">
-                        <span>WordPress</span>
+                        <span>DevOps</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        How to use solid color combine with simple furnitures.
+                        From local machine to production: a simple CI/CD pipeline.
                       </a>
                     </Link>
                   </h5>

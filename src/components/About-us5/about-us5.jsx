@@ -19,23 +19,25 @@ const AboutUs5 = () => {
           </div>
           <div className="col-lg-5 valign">
             <div className="cont full-width">
-              <h3 className="color-font">UI / UX Designer</h3>
+              <h3 className="color-font">Full-Stack Engineer</h3>
               <h5 className="co-tit mb-15">
-                We help to create visual strategies.
+                I build reliable products from database to pixel.
               </h5>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                I specialize in designing and implementing modern web
+                applications end to end — from data models and APIs to clean,
+                responsive user interfaces. I care about code quality,
+                performance, and shipping features that solve real problems.
               </p>
               <div className="skills-box mt-40">
                 <div className="skill-item">
-                  <h5 className="fz-14 mb-15">UI / UX Design</h5>
+                  <h5 className="fz-14 mb-15">Frontend (React, Next.js)</h5>
                   <div className="skill-progress">
                     <div className="progres" data-value="90%"></div>
                   </div>
                 </div>
                 <div className="skill-item">
-                  <h5 className="fz-14 mb-15">Apps Development</h5>
+                  <h5 className="fz-14 mb-15">Backend (Node.js, APIs)</h5>
                   <div className="skill-progress">
                     <div className="progres" data-value="80%"></div>
                   </div>

@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "computer-vision-for-aras",
+    "id": 1,
+    "title": {
+      "small": "Computer vision · ARAS",
+      "big": "Computer vision for advanced rider assistance"
+    },
+    "clientURLLink": "https://yellow.systems/works/computer-vision-for-aras",
+    "projectHeaderImage": "/img/portfolio/project2/bg1.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "ARAS startup (case-study inspired by Yellow Systems)",
+    "date": "2024",
+    "categories": [
+      { "id": 1, "name": "Edge AI", "link": "#" },
+      { "id": 2, "name": "Computer Vision", "link": "#" }
+    ],
+    "tags": [
+      { "id": 1, "name": "Python", "link": "#" },
+      { "id": 2, "name": "C++", "link": "#" },
+      { "id": 3, "name": "XGBoost", "link": "#" },
+      { "id": 4, "name": "ONNX", "link": "#" }
+    ],
+    "intro": {
+      "content": "An AI-powered Advanced Rider Assistance System (ARAS) that uses computer vision to detect road threats in real time and warn motorcycle riders before a collision happens. I worked on improving model accuracy, optimizing resource usage, and helping migrate the solution to a new edge AI platform.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Enhanced front‑collision and safety monitoring using optimized ML models."
+        },
+        {
+          "id": 2,
+          "name": "Reduced inference resource usage on edge devices while preserving real‑time performance."
+        },
+        {
+          "id": 3,
+          "name": "Migrated the computer‑vision pipeline from Jetson to a Hailo‑based edge AI platform."
+        },
+        {
+          "id": 4,
+          "name": "Shipped and validated the system with thousands of riders in real‑world traffic conditions."
+        }
+      ]
+    },
+    "previewImage": "/img/portfolio/portfolio/1/1.jpg",
+    "gallery": [
+      "/img/portfolio/project2/pro1.jpeg",
+      "/img/portfolio/project2/pro2.jpeg",
+      "/img/portfolio/project2/pro3.jpeg",
+      "/img/portfolio/project2/pro4.jpeg",
+      "/img/portfolio/project2/pro5.jpeg"
+    ],
+    "description": {
+      "content": "This project focuses on making motorcycle riding safer using computer vision and edge AI. The ARAS device is mounted on the bike with front and rear wide‑angle cameras feeding an on‑board edge module. I helped redesign the ML pipeline for front‑collision prevention, moving from the previous model to an XGBoost‑based solution with a carefully selected feature set. This increased core safety metrics and made hazard detection more reliable without overwhelming riders with false alerts.\n\nOn the engineering side, I optimized the detection and classification models so they consume roughly half the compute resources on the edge hardware while keeping accuracy stable. That work included model pruning, better batching, and exporting the models to ONNX for efficient deployment. Finally, I participated in the migration from a Jetson‑based setup to a Hailo edge AI platform, validating performance and power consumption across many real‑world rides.\n\nThe result is an ARAS that can analyze 360° surroundings in real time, raise non‑intrusive alerts to the rider, and continuously stream anonymized safety events to the cloud for fleet analytics. The improved accuracy and lower resource usage translate directly into safer rides, longer device battery life, and a smoother path to large‑scale deployment."
+    },
+    "liveDemo": {
+      "label": "Live demo",
+      "url": "https://yellow.systems/works/computer-vision-for-aras"
+    },
+    "nextTitle": "Safer rides through edge AI and computer vision."
+  },
+  {
+    "slug": "through-the-breaking",
+    "id": 2,
+    "title": { "small": "Design · WordPress", "big": "Through The Breaking" },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Client Name",
+    "date": "12 September 2022",
+    "categories": [
+      { "id": 1, "name": "SaaS", "link": "#" },
+      { "id": 2, "name": "Dashboard", "link": "#" }
+    ],
+    "tags": [
+      { "id": 1, "name": "Next.js", "link": "#" },
+      { "id": 2, "name": "TypeScript", "link": "#" }
+    ],
+    "intro": {
+      "content": "Overview of the Through The Breaking project. Replace this with a summary of what you built.",
+      "spmList": [
+        { "id": 1, "name": "Key metric or impact 1" },
+        { "id": 2, "name": "Key metric or impact 2" }
+      ]
+    },
+    "previewImage": "/img/portfolio/portfolio/1/2.jpg",
+    "gallery": [
+      "/img/portfolio/project2/2.jpg",
+      "/img/portfolio/project2/3.jpg",
+      "/img/portfolio/project2/5.jpg",
+      "/img/portfolio/project2/7.jpg"
+    ],
+    "description": {
+      "content": "Longer description for Through The Breaking. Describe the architecture, decisions, and what you learned."
+    },
+    "nextTitle": "Designing dashboards that turn complex product metrics into clear decisions."
+  },
+  {
+    "slug": "create-with-creatives",
+    "id": 3,
+    "title": { "small": "Design · WordPress", "big": "Create With Creatives" },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Client Name",
+    "date": "20 November 2022",
+    "categories": [
+      { "id": 1, "name": "E‑commerce", "link": "#" }
+    ],
+    "tags": [
+      { "id": 1, "name": "Stripe", "link": "#" },
+      { "id": 2, "name": "React", "link": "#" }
+    ],
+    "intro": {
+      "content": "Overview of the Create With Creatives project.",
+      "spmList": [
+        { "id": 1, "name": "Feature highlight 1" },
+        { "id": 2, "name": "Feature highlight 2" }
+      ]
+    },
+    "previewImage": "/img/portfolio/portfolio/1/3.jpg",
+    "gallery": [
+      "/img/portfolio/project2/3.jpg",
+      "/img/portfolio/project2/5.jpg",
+      "/img/portfolio/project2/7.jpg"
+    ],
+    "description": {
+      "content": "Longer description for Create With Creatives."
+    },
+    "nextTitle": "Building commerce experiences that feel fast, reliable, and human‑centered."
+  }
+]
+
+

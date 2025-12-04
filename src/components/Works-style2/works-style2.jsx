@@ -66,7 +66,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-details2/computer-vision-for-aras`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -93,7 +93,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-details2/through-the-breaking`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -120,7 +120,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-details2/create-with-creatives`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
