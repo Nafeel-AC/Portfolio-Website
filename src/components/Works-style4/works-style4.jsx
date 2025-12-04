@@ -49,9 +49,10 @@ const WorksStyle4 = () => {
           <div className="gallery full-width">
             {projectsData.map((project, index) => {
               const imgSrc =
-                project.gallery && project.gallery.length
+                project.previewImage ||
+                (project.gallery && project.gallery.length
                   ? project.gallery[0]
-                  : "/img/portfolio/freelancer/1.jpg";
+                  : "/img/portfolio/freelancer/1.jpg");
               const delay = ".4s";
               const itemClass =
                 index % 3 === 0

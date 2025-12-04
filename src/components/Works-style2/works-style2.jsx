@@ -2,8 +2,11 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import projectsData from "../../data/project-details2-list.json";
 
 const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
+  // Display all projects from JSON data
+  const displayProjects = projectsData;
   React.useEffect(() => {
     setTimeout(() => {
       initIsotope();
@@ -55,167 +58,45 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
           )}
 
           <div className="gallery full-width">
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/computer-vision-for-aras`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Creativity Demand</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/through-the-breaking`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Through The Breaking</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/create-with-creatives`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Create With Creatives</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Energies of Love</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>See It Yourself</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Blast From The Past</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
+            {displayProjects.map((project, index) => {
+              // Cycle through filter classes: graphic, web, brand
+              const itemClass = index % 3 === 0 ? "graphic" : index % 3 === 1 ? "web" : "brand";
+              const previewImg = project.previewImage || (project.gallery && project.gallery[0]) || "/img/portfolio/portfolio/1/1.jpg";
+              
+              return (
+                <div
+                  className={`${
+                    grid === 3
+                      ? "col-lg-4 col-md-6"
+                      : grid === 2
+                      ? "col-md-6"
+                      : "col-12"
+                  } items ${itemClass} wow fadeInUp`}
+                  data-wow-delay=".4s"
+                  key={project.id}
+                >
+                  <div className="item-img">
+                    <Link href={`/project-details2/${project.slug}`}>
+                      <a className="imago wow">
+                        <img src={previewImg} alt={project.title.big} />
+                        <div className="item-img-overlay"></div>
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="cont">
+                    <h6>{project.title.big}</h6>
+                    <span>
+                      {project.categories && project.categories.map((cat, catIndex) => (
+                        <React.Fragment key={cat.id}>
+                          <Link href="/works3/works3-dark">{cat.name}</Link>
+                          {catIndex < project.categories.length - 1 && ", "}
+                        </React.Fragment>
+                      ))}
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

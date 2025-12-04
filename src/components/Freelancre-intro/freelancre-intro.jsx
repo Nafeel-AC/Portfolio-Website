@@ -67,24 +67,6 @@ const FreelancreIntro = () => {
                   </p>
                 </div>
               </li>
-
-              <li className="mail-us">
-                <a href="mailto:hello@yourname.dev?subject=Project%20Inquiry">
-                  <div className="flex">
-                    <div className="text valign">
-                      <div className="full-width">
-                        <p>Get In Touch</p>
-                        <h6>hello@yourname.dev</h6>
-                      </div>
-                    </div>
-                    <div className="mail-icon">
-                      <div className="icon-box">
-                        <span className="icon color-font pe-7s-mail"></span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
             </ul>
           </div>
         </div>

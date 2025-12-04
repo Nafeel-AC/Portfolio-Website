@@ -22,5 +22,17 @@
     "icon": "pe-7s-shield",
     "title": "Performance & Security",
     "content": "Profiling, optimizing, and securing web applications for real-world traffic and threats."
+  },
+  {
+    "id": 5,
+    "icon": "pe-7s-config",
+    "title": "Automation",
+    "content": "Building automated workflows, scripts, and tools to streamline development and operations processes."
+  },
+  {
+    "id": 6,
+    "icon": "pe-7s-light",
+    "title": "AI & Machine Learning",
+    "content": "Integrating AI models, computer vision, and ML pipelines into web applications for intelligent features."
   }
 ]

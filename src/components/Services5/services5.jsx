@@ -17,26 +17,31 @@ const Services5 = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" style={{ display: 'flex', flexWrap: 'wrap' }}>
           {featuresData.map((item, index) => (
             <div
-              className="col-lg-6 wow fadeInLeft"
+              className="col-lg-4 col-md-6 wow fadeInLeft"
               data-wow-delay={
-                index == 0
+                index === 0
                   ? ".5s"
-                  : index == 1
+                  : index === 1
                   ? ".7s"
                   : index === 2
                   ? ".9s"
-                  : ".5s"
+                  : index === 3
+                  ? ".5s"
+                  : index === 4
+                  ? ".7s"
+                  : ".9s"
               }
               key={item.id}
+              style={{ display: 'flex', marginBottom: '30px' }}
             >
-              <div className="item-box no-curve">
+              <div className="item-box no-curve" style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
                 <div>
                   <span className={`icon color-font ${item.icon}`}></span>
                 </div>
-                <div className="cont">
+                <div className="cont" style={{ flex: 1 }}>
                   <h6>{item.title}</h6>
                   <p>{item.content}</p>
                 </div>

@@ -7,7 +7,6 @@ import Services5 from "../../components/Services5/services5";
 import WorksStyle4 from "../../components/Works-style4/works-style4";
 import AboutUs5 from "../../components/About-us5/about-us5";
 import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
-import SContactForm from "../../components/s-contact-form/s-contact-form";
 
 const Homepage = () => {
   const navbarRef = React.useRef(null);
@@ -36,7 +35,6 @@ const Homepage = () => {
       <WorksStyle4 />
       <AboutUs5 />
       <FullTestimonials showHead />
-      <SContactForm noLine />
       <Footer />
     </DarkTheme>
   );

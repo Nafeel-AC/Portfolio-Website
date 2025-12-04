@@ -17,15 +17,21 @@ const ProjectGallery = ({ images }) => {
     <section className="projdtal">
       <div className="popup-img">
         <div className="row">
-          {galleryImages.map((src, index) => (
-            <a
-              href="#"
-              key={index}
-              className={`col-md-${index === galleryImages.length - 1 ? "12" : "3"} popimg`}
-            >
-              <img alt="" src={src} />
-            </a>
-          ))}
+          {galleryImages.map((src, index) => {
+            // Last image is always full width, others are col-md-3 (4 per row)
+            const isLastImage = index === galleryImages.length - 1;
+            const colClass = isLastImage ? "col-md-12" : "col-md-3";
+            
+            return (
+              <a
+                href="#"
+                key={index}
+                className={`${colClass} popimg`}
+              >
+                <img alt="" src={src} />
+              </a>
+            );
+          })}
         </div>
       </div>
     </section>
