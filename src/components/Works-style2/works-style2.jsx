@@ -50,17 +50,18 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 <span data-filter="*" className="active">
                   All
                 </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter=".saas">SaaS</span>
+                <span data-filter=".finance">Finance</span>
+                <span data-filter=".business">Business</span>
               </div>
             </div>
           )}
 
           <div className="gallery full-width">
             {displayProjects.map((project, index) => {
-              // Cycle through filter classes: graphic, web, brand
-              const itemClass = index % 3 === 0 ? "graphic" : index % 3 === 1 ? "web" : "brand";
+              // Get filter class from project category
+              const categoryName = project.categories && project.categories[0] ? project.categories[0].name.toLowerCase() : "business";
+              const itemClass = categoryName === "saas" ? "saas" : categoryName === "finance" ? "finance" : "business";
               const previewImg = project.previewImage || (project.gallery && project.gallery[0]) || "/img/portfolio/portfolio/1/1.jpg";
               
               return (

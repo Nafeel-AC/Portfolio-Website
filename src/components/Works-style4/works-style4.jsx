@@ -40,9 +40,9 @@ const WorksStyle4 = () => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Full-Stack</span>
-              <span data-filter=".web">Frontend</span>
-              <span data-filter=".graphic">Backend</span>
+              <span data-filter=".saas">SaaS</span>
+              <span data-filter=".finance">Finance</span>
+              <span data-filter=".business">Business</span>
             </div>
           </div>
 
@@ -54,12 +54,9 @@ const WorksStyle4 = () => {
                   ? project.gallery[0]
                   : "/img/portfolio/freelancer/1.jpg");
               const delay = ".4s";
-              const itemClass =
-                index % 3 === 0
-                  ? "graphic"
-                  : index % 3 === 1
-                  ? "web"
-                  : "brand";
+              // Get filter class from project category
+              const categoryName = project.categories && project.categories[0] ? project.categories[0].name.toLowerCase() : "business";
+              const itemClass = categoryName === "saas" ? "saas" : categoryName === "finance" ? "finance" : "business";
 
               return (
                 <div
