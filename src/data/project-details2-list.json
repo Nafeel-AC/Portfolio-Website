@@ -150,127 +150,139 @@
     "nextTitle": "Optimizing business processes through generative AI and intelligent automation."
   },
   {
-    "slug": "saas-analytics-dashboard",
+    "slug": "ai-platform-healthcare",
     "id": 4,
-    "title": { "small": "SaaS · Analytics Platform", "big": "SaaS Analytics Dashboard" },
-    "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+    "title": { "small": "Healthcare AI · API Platform", "big": "AI Platform for Healthcare Developers" },
+    "clientURLLink": "https://www.corti.ai/",
+    "projectHeaderImage": "/img/portfolio/project2/bg4.jpeg",
     "videoLink": "https://vimeo.com/127203262",
-    "clientURLName": "SaaS Startup",
-    "date": "2023",
+    "clientURLName": "Corti (case-study inspired)",
+    "date": "2024",
     "categories": [
-      { "id": 1, "name": "SaaS", "link": "#" },
-      { "id": 2, "name": "Dashboard", "link": "#" }
+      { "id": 1, "name": "Healthcare AI", "link": "#" },
+      { "id": 2, "name": "API Platform", "link": "#" }
     ],
     "tags": [
-      { "id": 1, "name": "React", "link": "#" },
-      { "id": 2, "name": "TypeScript", "link": "#" },
-      { "id": 3, "name": "Node.js", "link": "#" },
-      { "id": 4, "name": "PostgreSQL", "link": "#" }
+      { "id": 1, "name": "Python", "link": "#" },
+      { "id": 2, "name": "Node.js", "link": "#" },
+      { "id": 3, "name": "Machine Learning", "link": "#" },
+      { "id": 4, "name": "NLP", "link": "#" }
     ],
     "intro": {
-      "content": "A comprehensive analytics dashboard for a SaaS platform with real-time metrics, role-based access control, and RESTful APIs. Built to provide actionable insights and streamline data visualization for business stakeholders.",
+      "content": "An AI platform for healthcare developers that enables building production-grade AI applications without infrastructure burden. Provides APIs designed for accuracy, speed, and scale, handling over 1 million healthcare interactions weekly.",
       "spmList": [
-        { "id": 1, "name": "Real-time metrics visualization with WebSocket connections for live updates." },
-        { "id": 2, "name": "Role-based access control (RBAC) with granular permissions management." },
-        { "id": 3, "name": "RESTful API architecture with comprehensive documentation and rate limiting." },
-        { "id": 4, "name": "Customizable dashboards with drag-and-drop widget configuration." }
+        { "id": 1, "name": "Speech Recognition API for real-time clinical conversation capture and transcription." },
+        { "id": 2, "name": "Text Generation API for radiology reports, clinical summaries, and documentation." },
+        { "id": 3, "name": "Ambient clinical documentation that automatically generates structured notes from conversations." },
+        { "id": 4, "name": "Clinical decision support with guidelines, risk scores, and next-step recommendations." }
       ]
     },
     "previewImage": "/img/portfolio/portfolio/1/4.jpg",
     "gallery": [
-      "/img/portfolio/project2/1.jpg",
-      "/img/portfolio/project2/2.jpg",
-      "/img/portfolio/project2/3.jpg",
-      "/img/portfolio/project2/5.jpg",
-      "/img/portfolio/project2/7.jpg"
+      "/img/portfolio/project2/pro16.jpeg",
+      "/img/portfolio/project2/pro17.jpeg",
+      "/img/portfolio/project2/pro18.jpeg",
+      "/img/portfolio/project2/pro19.jpeg",
+      "/img/portfolio/project2/pro20.jpeg"
     ],
     "description": {
-      "content": "Built a full-stack analytics dashboard for a SaaS startup that needed to provide real-time insights to their customers. The platform aggregates data from multiple sources, processes it in real-time, and presents it through an intuitive dashboard interface.\n\nThe frontend was built with React and TypeScript, using a component-based architecture with reusable chart components and a custom design system. The dashboard features real-time updates via WebSocket connections, allowing users to see metrics as they change.\n\nOn the backend, I designed a scalable Node.js API with Express that handles data aggregation, processing, and serving. The system includes role-based access control where different user roles see different data sets and have varying levels of access to features.\n\nKey technical achievements include implementing efficient data caching with Redis, optimizing database queries for large datasets, and building a flexible widget system that allows users to customize their dashboard layouts. The API includes comprehensive rate limiting, authentication via JWT tokens, and detailed logging for debugging and monitoring.\n\nThe result is a production-ready analytics platform that handles thousands of concurrent users, provides sub-second response times for most queries, and scales horizontally as the business grows."
+      "content": "Built an AI platform specifically designed for healthcare developers to build production-grade AI applications without the complexity of managing infrastructure. The platform provides healthcare-native APIs that power real clinical workflows, enabling developers to ship faster, safer, and smarter.\n\nThe core platform includes multiple API endpoints: Speech Recognition API for converting clinical conversations into text with high accuracy, Text Generation API for creating structured clinical documentation, and specialized models for radiology report generation, pre-charting summarization, and clinical decision support.\n\nKey features include ambient clinical documentation that captures conversations in real-time and automatically generates structured clinical notes, eliminating manual documentation burden. The platform also provides patient engagement tools for follow-ups and reminders, RCM optimization for coding and billing workflows, and clinical decision support that surfaces guidelines and risk scores at the point of care.\n\nTechnical implementation focused on building APIs that are accurate, fast, and scalable. The platform handles over 1 million healthcare interactions weekly, demonstrating its reliability and performance. The infrastructure is designed for compliance with healthcare regulations, including HIPAA considerations, and provides sovereign cloud options for markets with strict data residency requirements.\n\nDeveloper experience was a priority. The platform includes AI Studio for prototyping with free credits, comprehensive documentation with real examples, and SDKs in Python, Node.js, and other languages to get developers started quickly. The API management dashboard provides monitoring, usage tracking, and developer community support.\n\nThe result is a platform that enables healthcare developers to build AI-powered applications faster, with built-in safety and compliance features, and the ability to scale from prototyping to enterprise-level deployments. The platform successfully powers applications across EHR systems, virtual care platforms, practice management tools, and patient engagement solutions."
     },
-    "nextTitle": "Transforming data into actionable insights through modern web technologies."
+    "liveDemo": {
+      "label": "Live demo",
+      "url": "https://www.corti.ai/"
+    },
+    "nextTitle": "Enabling healthcare developers to build AI applications faster, safer, and smarter."
   },
   {
-    "slug": "ecommerce-platform",
+    "slug": "xircle-ai-pharmaceutical-knowledge",
     "id": 5,
-    "title": { "small": "E-commerce · Full-Stack", "big": "E-commerce Platform" },
-    "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+    "title": { "small": "Pharmaceutical AI · Knowledge Platform", "big": "Future of Pharmaceutical Knowledge" },
+    "clientURLLink": "https://xircle-ai.webflow.io/",
+    "projectHeaderImage": "/img/portfolio/project2/bg5.jpeg",
     "videoLink": "https://vimeo.com/127203262",
-    "clientURLName": "E-commerce Brand",
-    "date": "2023",
+    "clientURLName": "Xircle AI (case-study inspired)",
+    "date": "2024",
     "categories": [
-      { "id": 1, "name": "E-commerce", "link": "#" },
-      { "id": 2, "name": "Full-Stack", "link": "#" }
+      { "id": 1, "name": "Healthcare AI", "link": "#" },
+      { "id": 2, "name": "Knowledge Platform", "link": "#" }
     ],
     "tags": [
-      { "id": 1, "name": "Next.js", "link": "#" },
-      { "id": 2, "name": "Stripe", "link": "#" },
-      { "id": 3, "name": "MongoDB", "link": "#" },
-      { "id": 4, "name": "Redis", "link": "#" }
+      { "id": 1, "name": "AI", "link": "#" },
+      { "id": 2, "name": "NLP", "link": "#" },
+      { "id": 3, "name": "Python", "link": "#" },
+      { "id": 4, "name": "Webflow", "link": "#" }
     ],
     "intro": {
-      "content": "A modern e-commerce platform with custom storefront, secure checkout flow, and integrations with third-party payment and shipping services. Built for scalability and performance with server-side rendering and optimized database queries.",
+      "content": "An AI-powered pharmaceutical knowledge platform designed by physicians to bring clarity and safety to pharmaceutical information. Provides universal access to pharmaceutical knowledge for healthcare practitioners and patients, enabling safer treatment applications through intelligent AI assistance.",
       "spmList": [
-        { "id": 1, "name": "Custom storefront with product catalog, search, and filtering capabilities." },
-        { "id": 2, "name": "Secure checkout flow integrated with Stripe payment processing." },
-        { "id": 3, "name": "Third-party integrations for shipping, inventory management, and email notifications." },
-        { "id": 4, "name": "Admin dashboard for order management, product catalog, and analytics." }
+        { "id": 1, "name": "Xircle Assist: AI knowledge and service companion for streamlining medical information." },
+        { "id": 2, "name": "Xircle Engage: Multi-channel engagement platform for understanding customer needs and interests." },
+        { "id": 3, "name": "Xircle Reach: Knowledge platform for publishing dedicated content to HCPs and patients." },
+        { "id": 4, "name": "SmPC search functionality with indexed and annotated pharmaceutical documents." }
       ]
     },
     "previewImage": "/img/portfolio/portfolio/1/5.jpg",
     "gallery": [
-      "/img/portfolio/project2/1.jpg",
-      "/img/portfolio/project2/2.jpg",
-      "/img/portfolio/project2/3.jpg",
-      "/img/portfolio/project2/5.jpg",
-      "/img/portfolio/project2/7.jpg"
+      "/img/portfolio/project2/pro21.jpeg",
+      "/img/portfolio/project2/pro25.jpeg",
+      "/img/portfolio/project2/pro23.jpeg",
+      "/img/portfolio/project2/pro24.jpeg",
+      "/img/portfolio/project2/pro22.jpeg"
     ],
     "description": {
-      "content": "Developed a complete e-commerce platform from scratch for a growing retail brand. The platform needed to handle high traffic, provide a smooth shopping experience, and integrate with multiple third-party services.\n\nThe frontend was built with Next.js for server-side rendering, which significantly improved SEO and initial page load times. The storefront includes advanced product search with filtering, category navigation, product detail pages with image galleries, and a shopping cart with persistent state.\n\nThe checkout process was carefully designed for security and conversion optimization. I integrated Stripe for payment processing, implementing both one-time payments and subscription billing. The checkout flow includes address validation, shipping cost calculation, and order confirmation emails.\n\nOn the backend, I built a Node.js API with MongoDB for flexible product and order data storage. Redis was used for caching frequently accessed data like product listings and user sessions. The system includes webhook handlers for payment confirmations, shipping updates, and inventory synchronization.\n\nKey integrations include shipping providers for rate calculation and label generation, email service for transactional and marketing emails, and analytics tools for tracking user behavior and conversion metrics.\n\nThe platform successfully handles thousands of daily transactions, processes payments securely, and provides a seamless shopping experience that resulted in increased conversion rates and customer satisfaction."
+      "content": "Built a comprehensive pharmaceutical knowledge platform powered by AI, designed by physicians to prioritize safety and simplicity in bringing universal access to pharmaceutical knowledge. The platform serves healthcare practitioners and patients, enabling safer treatment applications through intelligent AI assistance.\n\nThe platform consists of three core products: Xircle Assist, an AI knowledge and service companion that creates seamless customer experiences by streamlining medical information and improving processes. Xircle Engage enables effective digital engagement with customers by understanding their critical needs and interests, optimizing multi-channel engagement across all stakeholders in the patient care pathway. Xircle Reach supports HCPs and patients instantly by improving medical safety and making content easily accessible through a dedicated knowledge platform.\n\nTechnical implementation focused on indexing and annotating pharmaceutical documents at scale. The platform indexes thousands of product information documents, package leaflets, and compounds, making them searchable and accessible through an intelligent search interface. The SmPC (Summary of Product Characteristics) search functionality allows healthcare professionals to quickly find relevant pharmaceutical information.\n\nKey features include AI-powered document processing that extracts and structures pharmaceutical knowledge, natural language understanding for query processing, and a knowledge graph that connects related pharmaceutical information. The platform continuously grows and improves, with over 8,000 documents indexed and annotated, serving thousands of users across the healthcare industry.\n\nThe platform prioritizes safety in pharmaceutical knowledge delivery, ensuring that healthcare practitioners can apply treatments more safely with AI assistance. The system is designed to handle complex pharmaceutical queries, provide accurate information retrieval, and support decision-making processes in clinical settings.\n\nThe result is a platform that empowers healthcare businesses with smart pharmaceutical AI, enabling them to offer smart services to customers safely, engage effectively with customers digitally, and support HCPs and patients instantly. The platform has proven valuable for support teams, handling most queries automatically and providing specific, accurate help that improves medical safety and accessibility."
     },
-    "nextTitle": "Building commerce experiences that feel fast, reliable, and human-centered."
+    "liveDemo": {
+      "label": "Live demo",
+      "url": "https://xircle-ai.webflow.io/"
+    },
+    "nextTitle": "Bringing clarity and safety to pharmaceutical knowledge through intelligent AI."
   },
   {
-    "slug": "real-time-chat-app",
+    "slug": "drpawluk-ecommerce-redesign",
     "id": 6,
-    "title": { "small": "Real-Time · Communication", "big": "Real-Time Chat Application" },
-    "clientURLLink": "#",
-    "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+    "title": { "small": "Healthtech · E-commerce", "big": "Modernizing Evidence-Based E-commerce for PEMF Therapy" },
+    "clientURLLink": "https://www.halo-lab.com/project/drpawluk",
+    "projectHeaderImage": "/img/portfolio/project2/bg6.jpeg",
     "videoLink": "https://vimeo.com/127203262",
-    "clientURLName": "Tech Startup",
-    "date": "2023",
+    "clientURLName": "DrPawluk.com (case-study inspired by Halo Lab)",
+    "date": "2024",
     "categories": [
-      { "id": 1, "name": "Real-Time", "link": "#" },
-      { "id": 2, "name": "WebSocket", "link": "#" }
+      { "id": 1, "name": "Healthtech", "link": "#" },
+      { "id": 2, "name": "E-commerce", "link": "#" }
     ],
     "tags": [
-      { "id": 1, "name": "Socket.io", "link": "#" },
-      { "id": 2, "name": "React", "link": "#" },
-      { "id": 3, "name": "Node.js", "link": "#" },
-      { "id": 4, "name": "MongoDB", "link": "#" }
+      { "id": 1, "name": "Web Design", "link": "#" },
+      { "id": 2, "name": "Frontend Development", "link": "#" },
+      { "id": 3, "name": "Branding", "link": "#" },
+      { "id": 4, "name": "JavaScript", "link": "#" }
     ],
     "intro": {
-      "content": "A WebSocket-powered real-time chat application with authentication, message persistence, and group chat capabilities. Built to handle thousands of concurrent connections with low latency and reliable message delivery.",
+      "content": "Complete website redesign, branding, and front-end development for DrPawluk.com, an e-commerce platform dedicated to Pulsed Electromagnetic Field (PEMF) therapy devices. Modernized the user experience to strengthen trust among medical professionals and wellness enthusiasts while maintaining a science-driven, credible design.",
       "spmList": [
-        { "id": 1, "name": "WebSocket-based real-time messaging with Socket.io for instant delivery." },
-        { "id": 2, "name": "User authentication and authorization with JWT tokens and session management." },
-        { "id": 3, "name": "Message persistence in MongoDB with efficient querying and pagination." },
-        { "id": 4, "name": "Group chat rooms, direct messaging, typing indicators, and read receipts." }
+        { "id": 1, "name": "Complete website redesign with clean, medically inspired visual language." },
+        { "id": 2, "name": "Custom interactive PEMF Simulation plugin for visualizing device intensity and field penetration." },
+        { "id": 3, "name": "Enhanced site performance with improved loading speed, image scaling, and search functionality." },
+        { "id": 4, "name": "Product filtering by power level, system type, and category (Doctor Recommended, Rent-to-Own, Professional)." }
       ]
     },
     "previewImage": "/img/portfolio/portfolio/1/6.jpg",
     "gallery": [
-      "/img/portfolio/project2/1.jpg",
-      "/img/portfolio/project2/2.jpg",
-      "/img/portfolio/project2/3.jpg",
-      "/img/portfolio/project2/5.jpg",
-      "/img/portfolio/project2/7.jpg"
+      "/img/portfolio/project2/pro26.jpeg",
+      "/img/portfolio/project2/pro27.jpeg",
+      "/img/portfolio/project2/pro30.jpeg",
+      "/img/portfolio/project2/pro29.jpeg",
+      "/img/portfolio/project2/pro28.jpeg"
     ],
     "description": {
-      "content": "Built a real-time chat application that needed to support both one-on-one conversations and group chats for a tech startup's internal communication platform. The application required instant message delivery, reliable persistence, and the ability to scale to thousands of concurrent users.\n\nThe frontend was built with React, using hooks for managing WebSocket connections and real-time state updates. The UI includes features like typing indicators, read receipts, message reactions, file attachments, and a clean, modern interface optimized for both desktop and mobile devices.\n\nThe backend uses Node.js with Socket.io for WebSocket connections, handling connection management, room management, and message broadcasting. I implemented a robust authentication system using JWT tokens, with refresh token rotation for security. Messages are persisted in MongoDB with efficient indexing for fast retrieval.\n\nKey technical challenges included handling connection drops gracefully, ensuring message delivery even when users reconnect, and managing room state across multiple server instances. I solved these with message queuing, connection state management, and Redis for shared state across servers.\n\nThe system includes features like user presence (online/offline status), message search, notification management, and admin controls for room moderation. The application successfully handles thousands of concurrent connections with sub-100ms message delivery latency and 99.9% uptime."
+      "content": "DrPawluk.com is an e-commerce platform dedicated to Pulsed Electromagnetic Field (PEMF) therapy devices — medical-grade systems that support pain relief, faster recovery, and better sleep. Founded by Dr. William Pawluk, a recognized expert in PEMF technology, the website serves as both a retail hub and an educational resource for individuals seeking non-invasive, science-backed wellness solutions.\n\nThe project required a complete website redesign to modernize the user experience and strengthen trust among a diverse audience ranging from medical professionals to wellness enthusiasts. The existing site had an outdated interface, inconsistent branding, and limited performance optimization, making product discovery and comparison difficult.\n\nThe redesign process involved discovery and analysis, reviewing the existing website structure, user flows, and navigation logic. We conducted competitor benchmarking and performance diagnostics to identify UX and speed improvement opportunities. The UX/UI design phase focused on redesigning homepage, shop, product, and blog templates for clarity and conversion, introducing a clean, medically inspired visual language that reinforces trust and professional credibility.\n\nA key technical achievement was building a custom interactive PEMF Simulation plugin to visualize device intensity and field penetration. This plugin allows visitors to compare devices in real-time, with filtering options by power level, system type, and category (Doctor Recommended, Rent-to-Own, Professional), significantly improving product comparison capabilities.\n\nTechnical optimization included implementing a Git-based workflow for transparent version control and efficient collaboration, enhancing site performance with improved loading speed, image scaling, and search functionality. Multiple QA rounds were conducted to eliminate inconsistencies and ensure reliable performance across devices.\n\nThe redesigned website now attracts an estimated 5,000+ daily visitors and over 160,000 monthly sessions, with users viewing an average of 4–5 pages per visit. The refreshed interface and improved performance made product exploration smoother, while the custom PEMF Simulation plugin increased engagement by allowing visitors to visualize and compare device intensity in real time. The platform successfully serves as a trusted online destination for PEMF therapy solutions, bridging medical expertise with accessible self-care."
     },
-    "nextTitle": "Enabling seamless real-time communication through modern web technologies."
+    "liveDemo": {
+      "label": "Live demo",
+      "url": "https://www.halo-lab.com/project/drpawluk"
+    },
+    "nextTitle": "Modernizing e-commerce experiences with science-driven design and interactive tools."
   },
   {
     "slug": "api-microservice",
