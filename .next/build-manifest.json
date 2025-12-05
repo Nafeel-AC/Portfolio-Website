@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/project-details2/[slug].js"
+    ],
+    "/works2/works2-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works2/works2-dark.js"
     ]
   },
   "ampFirstPages": []
