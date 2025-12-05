@@ -141,7 +141,7 @@
         { "id": 4, "name": "AI-driven chatbots for handling routine customer queries and policy inquiries." }
       ]
     },
-    "previewImage": "/img/portfolio/portfolio/1/pro12.jpg",
+    "previewImage": "/img/portfolio/portfolio/1/pro12.jpeg",
     "gallery": [
       "/img/portfolio/project2/pro11.jpeg",
       "/img/portfolio/project2/pro12.jpeg",
@@ -513,6 +513,60 @@
       "url": "https://versus.trade/"
     },
     "nextTitle": "Empowering traders with innovative technology and paper-thin spreads for life-changing opportunities."
+  },
+  {
+    "slug": "sb-digital-agency-marketing-platform",
+    "id": 11,
+    "title": {
+      "small": "Digital Marketing Platform · SB Digital Agency",
+      "big": "Data-driven marketing platform for DTC brands"
+    },
+    "clientURLLink": "https://sbdigitalagency.com/",
+    "projectHeaderImage": "/img/portfolio/project2/bg11.jpg",
+    "clientURLName": "SB Digital Agency",
+    "date": "2024",
+    "categories": [
+      { "id": 1, "name": "Business", "link": "#" }
+    ],
+    "tags": [
+      { "id": 1, "name": "React", "link": "#" },
+      { "id": 2, "name": "Strapi CMS", "link": "#" },
+      { "id": 3, "name": "SEO", "link": "#" },
+      { "id": 4, "name": "Meta Ads", "link": "#" },
+      { "id": 5, "name": "Google Ads", "link": "#" },
+      { "id": 6, "name": "Programmatic Advertising", "link": "#" }
+    ],
+    "intro": {
+      "content": "At SB Digital Agency, I developed data-driven marketing strategies using React and Strapi CMS. My work included optimizing campaigns on Meta and Google Ads, implementing SEO, and managing programmatic advertising, all while ensuring scalability and responsive design.",
+      "spmList": [
+        { "id": 1, "name": "Built scalable React-based marketing platform with Strapi CMS for content management and campaign tracking." },
+        { "id": 2, "name": "Optimized Meta and Google Ads campaigns using data-driven strategies to improve ROI and conversion rates." },
+        { "id": 3, "name": "Implemented comprehensive SEO strategies to increase organic search rankings and drive qualified traffic." },
+        { "id": 4, "name": "Managed programmatic advertising campaigns with third-party media companies for maximum reach and efficiency." }
+      ]
+    },
+    "previewImage": "/img/portfolio/portfolio/1/11.jpg",
+    "gallery": [
+      "/img/portfolio/project2/pro52.jpeg",
+      "/img/portfolio/project2/pro53.jpeg",
+      "/img/portfolio/project2/pro54.jpeg",
+      "/img/portfolio/project2/pro55.jpeg",
+      "/img/portfolio/project2/pro56.jpeg"
+    ],
+    "description": {
+      "content": "SB Digital Agency is a boutique digital marketing agency serving DTC (Direct-to-Consumer) brands with 15+ years of experience. The platform specializes in performance marketing, combining creativity, storytelling, and data-driven strategies to drive measurable growth for outdoor and premium brands.\n\nI developed a comprehensive marketing platform using React for the frontend and Strapi CMS for content management. The platform enables the agency to manage multiple client campaigns, track performance metrics, and deliver high-impact marketing strategies across various channels.\n\nThe platform supports multiple marketing services including Paid Social Media Marketing on Meta, TikTok, and Snap, Google & YouTube Advertising with targeted keyword bidding, Programmatic & Native Advertising for scalable audience reach, Search Engine Optimization (SEO) for improved organic rankings, Influencer Marketing with authentic creators, and Visual Content Production for branded assets.\n\nKey technical achievements include building a scalable React architecture that handles multiple client campaigns simultaneously, implementing Strapi CMS for flexible content management and campaign tracking, optimizing Meta and Google Ads campaigns using data-driven strategies to improve ROI, implementing comprehensive SEO strategies to increase organic search rankings, and managing programmatic advertising campaigns with third-party integrations.\n\nThe platform ensures responsive design across all devices, enabling the marketing team to monitor campaigns and access analytics from anywhere. The scalable architecture supports the agency's growth, allowing them to onboard new clients and manage increasing campaign volumes without performance degradation.\n\nWith a focus on performance marketing, the platform helps brands achieve their KPIs from awareness to acquisition and lifetime value. The data-driven approach ensures every marketing dollar drives measurable growth, with comprehensive analytics and reporting capabilities built into the platform.",
+      "techStack": {
+        "frontend": "React-based responsive web application with modern UI components, real-time analytics dashboards, and mobile-optimized interfaces for campaign management and reporting.",
+        "backend": "Strapi CMS for content management, API development for campaign data processing, integration with Meta and Google Ads APIs, and database management for campaign tracking and analytics.",
+        "services": "Third-party media company integrations for programmatic advertising, Meta Business Partner API access, Google Ads API integration, SEO tools and analytics services, and cloud hosting for scalable deployment.",
+        "other": "Performance marketing tools, campaign optimization algorithms, data analytics and reporting systems, responsive design frameworks, and API integrations for advertising platforms."
+      }
+    },
+    "liveDemo": {
+      "label": "Live demo",
+      "url": "https://sbdigitalagency.com/"
+    },
+    "nextTitle": "Transforming DTC brands with data-driven marketing strategies and scalable technology solutions."
   }
 ]
 
